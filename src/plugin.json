@@ -1,0 +1,27 @@
+{
+  "pluginName": "Note",
+  "description": "Note",
+  "version": "0.0.1",
+  "author": "mingyang luo",
+  "homepage": "https://github.com/dofy/utools-ghost-note",
+  "main": "index.html",
+  "preload": "preload.js",
+  "logo": "note.png",
+  "features": [
+    {
+      "code": "ghost",
+      "explain": "查看全部 Note",
+      "cmds": ["n", "notes", "gn"]
+    },
+    {
+      "code": "bind",
+      "explain": "为当前应用添加 Ghost Note",
+      "cmds": [
+        {
+          "type": "window",
+          "label": "Add Note"
+        }
+      ]
+    }
+  ]
+}
